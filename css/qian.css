@@ -1,4 +1,5 @@
 .word {
+    color: rgb(248, 247, 247);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -10,6 +11,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color:white;
+    
   
 }
