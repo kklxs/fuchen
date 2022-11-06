@@ -337,7 +337,7 @@ body .shell-main-header-left-top {
 
 body .shell-main-header-left-top h2 {
     font-size: 100px;
-        transform: translateY(-33px);
+        transform: translateY(-67px);
         -webkit-text-fill-color: rgba(206, 112, 17, 0.2);
         -webkit-text-stroke-color: #e6b884;
         -webkit-text-stroke-width: 1px;
@@ -350,7 +350,7 @@ body .shell-main-header-left-top span {
         -webkit-text-stroke-width: 1px;
         margin-left: 33px;
         font: 560 45px '';
-        transform: translateY(23px);
+        transform: translateY(-28px);
 }
 
 body .shell-main-header-left-bottom {
