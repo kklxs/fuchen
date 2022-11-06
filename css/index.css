@@ -367,7 +367,7 @@ body .shell-main-header-right {
    width: 40%;
         height: 95%;
         background-size: cover;
-        background-image: url("./image/top.png");
+        background-image: url("../image/top.png");
         border: 7px solid rgb(220, 180, 136);
 }
 
