@@ -309,19 +309,12 @@ body .shell-main-header-left::before {
 
 body .shell-main-header-left-footer {
      position: relative;
-        width: 80%;
-        margin-top: 0px;
-        transform: translateY(10px);
-        opacity: 80;
-        transition: .9s;
-        transition-delay: .3s;
-
-        font-size: 100px;
-        transform: translateY(-10px);
-        -webkit-text-fill-color: rgba(216, 120, 23, 0.2);
-        -webkit-text-stroke-color: #c39157;
-        -webkit-text-stroke-width: 0.7px;
-        margin-left: 24px
+    width: 80%;
+    margin-top: 40px;
+    transform: translateY(400px);
+    opacity: 0;
+    transition: .9s;
+    transition-delay: .3s;
 }
 
 body .shell-main-header-left-footer p {
@@ -369,15 +362,6 @@ body .shell-main-header-left-bottom {
      
         font-size: 20px;
 }
-body .shell-main-header-left-footer {
-        width: 85%;
-        height: auto;
-
-        transform: translateY(-10px);
-        transition: .8s;
-        transition-delay: .2s;
-        font-size: 14px
-    }
 
 body .shell-main-header-right {
    width: 40%;
