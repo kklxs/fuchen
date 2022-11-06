@@ -374,6 +374,15 @@ body .shell-main-header-left-bottom {
         /* transition-delay: .2s; */
         font-size: 20px;
 }
+body .shell-main-header-left-footer {
+        width: 85%;
+        height: auto;
+
+        transform: translateY(-10px);
+        transition: .8s;
+        transition-delay: .2s;
+        font-size: 14px
+    }
 
 body .shell-main-header-right {
    width: 40%;
