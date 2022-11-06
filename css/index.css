@@ -362,16 +362,11 @@ body .shell-main-header-left-top span {
 
 body .shell-main-header-left-bottom {
     width: 85%;
-        /* height: auto; */
-        /* 就是这里文字的动画效果
-        translateY 垂直移动
-        transform: translateY(400px);
-        transition: .8s;
-        transition-delay: .2s; */
+        
         transform: translateY(-20px);
-        /* transition这个好像涉及js了 */
+       
         transition: .2s;
-        /* transition-delay: .2s; */
+     
         font-size: 20px;
 }
 body .shell-main-header-left-footer {
