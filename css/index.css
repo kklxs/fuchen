@@ -273,7 +273,7 @@ body .shell-main-header-left::after {
     content: '';
     width: 200px;
     height: 15px;
-    background-color: #8ddff8;
+    background-color: #d3924e;
     opacity: 0.8;
     position: absolute;
     top: 0;
@@ -284,7 +284,7 @@ body .shell-main-header-left::before {
     content: '';
     width: 250px;
     height: 250px;
-    border: 20px solid rgba(0, 255, 255, 0.3);
+    border: 20px solid rgba(202, 107, 39, 0.3);
     position: absolute;
     bottom: -30px;
     left: -140px;
@@ -308,58 +308,79 @@ body .shell-main-header-left::before {
 }
 
 body .shell-main-header-left-footer {
-    position: relative;
-    width: 80%;
-    margin-top: 40px;
-    transform: translateY(400px);
-    opacity: 0;
-    transition: .9s;
-    transition-delay: .3s;
+     position: relative;
+        width: 80%;
+        margin-top: 0px;
+        transform: translateY(10px);
+        opacity: 80;
+        transition: .9s;
+        transition-delay: .3s;
+
+        font-size: 100px;
+        transform: translateY(-10px);
+        -webkit-text-fill-color: rgba(216, 120, 23, 0.2);
+        -webkit-text-stroke-color: #c39157;
+        -webkit-text-stroke-width: 0.7px;
+        margin-left: 24px
 }
 
 body .shell-main-header-left-footer p {
     position: absolute;
     display: block;
-    right: 0;
+    right: 60px;
 }
 
 body .shell-main-header-left-top {
     display: flex;
-    position: relative;
-    width: 85%;
-    transform: translateY(400px);
-    opacity: 0;
-    transition: .8s;
+        margin: top 10px;
+
+        position: relative;
+        width: 90%;
+        transform: translateY(10px);
+        /* opacity: 透明度; */
+        opacity: 80;
+        transition: .8s;
 }
 
 body .shell-main-header-left-top h2 {
     font-size: 100px;
-    transform: translateY(-20px);
+        transform: translateY(-33px);
+        -webkit-text-fill-color: rgba(206, 112, 17, 0.2);
+        -webkit-text-stroke-color: #e6b884;
+        -webkit-text-stroke-width: 1px;
+        margin-left: 24px;
 }
 
 body .shell-main-header-left-top span {
-    -webkit-text-fill-color: rgba(0, 0, 0, 0.2);
-    -webkit-text-stroke-color: #3aaf88;
-    -webkit-text-stroke-width: 1px;
-    margin-left: 20px;
-    font: 600 40px '';
+    -webkit-text-fill-color: rgba(238, 129, 20, 0.2);
+        -webkit-text-stroke-color: #e1b179;
+        -webkit-text-stroke-width: 1px;
+        margin-left: 33px;
+        font: 560 45px '';
+        transform: translateY(23px);
 }
 
 body .shell-main-header-left-bottom {
     width: 85%;
-    height: auto;
-    transform: translateY(400px);
-    transition: .8s;
-    transition-delay: .2s;
-    font-size: 20px;
+        /* height: auto; */
+        /* 就是这里文字的动画效果
+        translateY 垂直移动
+        transform: translateY(400px);
+        transition: .8s;
+        transition-delay: .2s; */
+        transform: translateY(-20px);
+        /* transition这个好像涉及js了 */
+        transition: .2s;
+        /* transition-delay: .2s; */
+        font-size: 20px;
 }
 
 body .shell-main-header-right {
-    width: 40%;
-    height: 95%;
-    background-size: cover;
-    background-image: url("../image/top.png");
-    border: 5px solid #000;
+   width: 40%;
+        height: 95%;
+        background-size: cover;
+        background-image: url("./image/top.png");
+        border: 7px solid rgb(220, 180, 136);
 }
 
 body .shell-main-content {
@@ -375,27 +396,27 @@ body .shell-main-content {
 
 body .shell-main-content-left {
     width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #252525;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-    position: relative;
-    flex-wrap: wrap;
-    align-items: center;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #e9b265;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+        position: relative;
+        flex-wrap: wrap;
+        align-items: center;
 }
 
 body .shell-main-content-left::before {
     content: '';
-    width: 200px;
-    height: 20px;
-    background-color: #2e2e2e;
-    position: absolute;
-    bottom: -30px;
-    right: 0;
+        width: 200px;
+        height: 20px;
+        background-color: #e7ab66;
+        position: absolute;
+        bottom: -30px;
+        right: 0;
 }
 
 body .shell-main-content-left h2 {
@@ -421,10 +442,10 @@ body .shell-main-content-left-fans ul {
 
 body .shell-main-content-left-fans ul li {
     width: 80px;
-    height: 80px;
-    background-color: #000;
-    border-radius: 50%;
-    overflow: hidden;
+        height: 80px;
+        background-color: rgb(227, 172, 101);
+        border-radius: 50%;
+        overflow: hidden;
 }
 
 body .shell-main-content-left-fans ul li:hover img {
@@ -474,39 +495,53 @@ body .shell-main-bottom {
 
 body .shell-main-bottom h2 {
     font: 100 34px 'font';
-    color: #48afa5;
+    color: #cca43e;
     letter-spacing: 5px;
     margin-left: 100px;
 }
 
 body .shell-main-bottom h2 span {
     font-size: 80px;
-    color: turquoise;
+    color: rgb(215, 166, 60);
 }
 
 body .shell-main-bottom-bottom {
-    width: 100%;
-    height: auto;
-    padding: 20px 0 100px 0;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.6));
-    backdrop-filter: blur(30px);
-    position: relative;
+     width: 100%;
+        height: auto;
+        padding: 20px 0 100px 0;
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.6));
+        backdrop-filter: blur(30px);
+        position: relative;
 }
 
 body .shell-main-bottom-bottom::before {
     content: '';
-    width: 250px;
-    height: 250px;
-    border: 20px solid rgba(0, 255, 255, 0.3);
-    position: absolute;
-    border-radius: 10px;
-    right: 70px;
-    top: 100px;
-    transform: rotate(30deg) translate(-50%, -50%);
-    animation: transform 4s infinite;
-    opacity: 0.8;
-    z-index: -999;
+        width: 250px;
+        height: 250px;
+        border: 20px solid rgba(223, 164, 63, 0.3);
+        position: absolute;
+        border-radius: 10px;
+        right: 70px;
+        top: 100px;
+        transform: rotate(30deg) translate(-50%, -50%);
+        animation: transform 4s infinite;
+        opacity: 0.8;
+        z-index: -999;
 }
+body .shell-main-bottom-bottom::after {
+        content: '';
+        width: 250px;
+        height: 250px;
+        border: 20px solid rgba(238, 3, 3, 0.3);
+        position: absolute;
+        border-radius: 10px;
+        right: 70px;
+        top: 100px;
+        transform: rotate(30deg) translate(-50%, -50%);
+        animation: transform 4s infinite;
+        opacity: 0.8;
+        z-index: -999;
+    }
 
 @keyframes transform {
     0% {
@@ -535,7 +570,7 @@ body .shell-main-bottom-bottom ul li {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 12px solid rgba(0, 0, 0, 0.2);
+    border: 12px solid rgba(227, 174, 113, 0.2);
     display: flex;
     padding: 10px;
     flex-direction: column;
@@ -565,13 +600,13 @@ body .shell-main-bottom-bottom ul li h2 {
     margin: 30px 0 10px 0;
     font-size: 24px;
     transition: .3s;
-    color: black;
+    color: rgb(238, 148, 64);
     text-align: center;
     letter-spacing: 0;
 }
 
 body .shell-main-bottom-bottom ul li span {
-    color: #525252;
+    color: #d08f60;
 }
 
 body .shell-main-image {
@@ -586,7 +621,7 @@ body .shell-main-image {
 
 body .shell-main-image h2 {
     font-size: 30px;
-    color: turquoise;
+    color: rgb(240, 176, 66);
 }
 
 body .shell-main-image span {
