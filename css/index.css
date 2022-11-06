@@ -47,7 +47,7 @@ body .shell-main::before {
     content: '';
     width: 250px;
     height: 50%;
-    background-image: linear-gradient(to bottom, #a1e6ff, #a8ffe2, #a1e6ff);
+    background-image: linear-gradient(to bottom, #42df64, #f2c062, #f7e817););
     position: absolute;
     transform: translate(-145%, 0);
     z-index: -999;
@@ -58,7 +58,7 @@ body .shell-main::after {
     content: '';
     width: 250px;
     height: 50%;
-    background-image: linear-gradient(to bottom, #a1e6ff, #a8ffe2, #a1e6ff);
+    background-image: linear-gradient(to bottom,  #42df64, #f2c062, #f7e817););
     position: absolute;
     transform: translate(145%);
     z-index: -999;
@@ -239,7 +239,7 @@ body .shell-main-lbt .button {
 body .shell-main-lbt .button .button-left,
 body .shell-main-lbt .button .button-right {
     font-size: 50px;
-    background-color: rgba(160, 193, 255, 0.7);
+    background-color: rgba(235, 176, 27, 0.7);
     padding: 0 20px;
     cursor: pointer;
     line-height: 500px;
